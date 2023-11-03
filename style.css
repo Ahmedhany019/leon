@@ -39,9 +39,14 @@
       width: 750px;
     }
 }
-  @media (min-width: 100px) and (max-width:776px) {
+  @media (min-width: 425px) and (max-width:776px) {
     .container {
       width: 400px;
+    }
+}
+  @media (min-width: 100px) and (max-width:425px) {
+    .container {
+      max-width: 100%;
     }
     
     }
